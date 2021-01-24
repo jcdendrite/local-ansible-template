@@ -1,0 +1,7 @@
+- name: pkgs 
+  package:
+    name:
+      - kubectl
+      - minikube
+    state: present
+  become: yes

@@ -1,0 +1,12 @@
+# this is the standard make-a-local-copy-n-edit path
+lappy.yaml
+
+# this is where we install everything as if it was the root, so we can more
+# easily experiment
+example-root
+
+# this is where we cache info discovered about the target system
+.facts
+
+# ansible makes a bunch of these files & we mostly don't want to save them
+*.retry

@@ -1,0 +1,2 @@
+root: "{{ playbook_dir }}/example-root"
+home: "{{ root }}/{{ ansible_user_dir }}"

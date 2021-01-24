@@ -1,0 +1,4 @@
+- name: create homedir
+  file:
+    path: "{{ home }}"
+    state: directory

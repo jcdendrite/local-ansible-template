@@ -1,0 +1,23 @@
+- name: npm cfg
+  copy:
+    src: dot.npmrc
+    dest: ~/.npmrc
+
+- name: yarn cfg
+  copy:
+    src: dot.yarnrc
+    dest: ~/.yarnrc
+
+- name: yarn v2 cfg
+  copy:
+    src: dot.yarnrc.yml
+    dest: ~/.yarnrc.yml
+
+- name: pkgs
+  package:
+    name:
+      - nodejs
+      - node-gyp
+      - yarn
+    state: present
+  become: yes

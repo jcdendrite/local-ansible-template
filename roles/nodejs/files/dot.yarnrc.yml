@@ -1,0 +1,6 @@
+initFields:
+  version: 0.0.0
+enableTelemetry: false
+
+plugins:
+  - .yarn/berry/plugins/xinit.js

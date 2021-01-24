@@ -1,0 +1,7 @@
+- name: lappy setup template
+  hosts: all
+  become_user: root
+  roles:
+    - local-repo-testability
+    - nodejs
+    - k8s
