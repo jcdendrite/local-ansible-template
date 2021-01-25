@@ -1,8 +1,7 @@
 ansible template
 ================
 
-A template for starting an ansible project for configuring a local machine. I
-mostly made this for a colleage who wanted to use ansible.
+A template for starting an ansible project for configuring a local machine.
 
 usage
 -----
