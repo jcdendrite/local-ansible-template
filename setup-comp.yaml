@@ -1,10 +1,11 @@
 ---
-- name: lappy setup template
+- name: Set up comp
   hosts: all
   become_user: root
   vars_files:
     - vars/default-lappy.yaml
   roles:
     - local-repo-testability
+    - python
     - nodejs
     - k8s
