@@ -1,7 +1,7 @@
 - name: pkgs 
   package:
     name:
-      - kubectl
+      - k8s
       - minikube
     state: present
   become: yes
